@@ -21,7 +21,7 @@ import Agriculture from "./Pages/Agriculture";
 import HomePage from "./Pages/HomePage";
 import Contact from "./Pages/Contact";
 import ThankYou from "./Pages/ThankYou";
-import CheckService from "./Pages/CheckService";
+// import CheckService from "./Pages/CheckService";
 
 function App() {
   const [data, setData] = useState();
@@ -64,7 +64,7 @@ function App() {
             return (
               <>
                 <BookService />
-                <CheckService />
+                {/* <CheckService /> */}
                 <Type />
                 <Banner />
                 <HomePage />

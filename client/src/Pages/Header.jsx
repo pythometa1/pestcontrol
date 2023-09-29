@@ -60,7 +60,7 @@ const Header = () => {
       >
         <a
         target="_blank"
-          href="https://api.whatsapp.com/send?phone=+918010281236"
+          href="https://api.whatsapp.com/send?phone=8010281236"
           className="flex items-center pl-9 xl:pl-2 xl:text-lg text-green-500 font-bold xsm:pl-1"
         >
           <WhatsAppIcon style={{ marginRight: "8px" }} />

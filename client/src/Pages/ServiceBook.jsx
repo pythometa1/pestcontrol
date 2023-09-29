@@ -3,6 +3,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import EmailIcon from "@mui/icons-material/Email";
 import CallIcon from "@mui/icons-material/Call";
 import axios from "axios"; // Import Axios with a lowercase 'a'
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const ServiceBook = () => {
   const [name, setName] = useState("");
@@ -177,9 +178,23 @@ const ServiceBook = () => {
                 Call Us
               </button>
 
-              <button className="bg-green-500 ml-[-12px] text-white px-4 py-2 mr-8 rounded-md">
+              <button
+                onClick={() => {
+                  window.location.href = "https://api.whatsapp.com/send?phone=8010281236";
+                }}
+                className="bg-green-500 ml-[-12px] text-white px-4 py-2 mr-8 rounded-md">
+                
+Whatsapp              </button>
+
+             
+              {/* <button 
+                      target="_blank"
+
+              onclick= {() => window.location.href = ''
+              }
+className="bg-green-500 ml-[-12px] text-white px-4 py-2 mr-8 rounded-md">
                 WhatsApp Us
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
